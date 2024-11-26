@@ -1,1 +1,81 @@
 /* Do not add any css, this is a bootstrap only assignment  */
+/* General styling for the carousel */
+#myCarousel {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Styling for each slide */
+.first-slide {
+    background-color: #f8d7da;
+    text-align: center;
+}
+
+.second-slide {
+    background-color: #d1ecf1;
+    text-align: center;
+}
+
+.third-slide {
+    background-color: #d4edda;
+    text-align: center;
+}
+
+.fourth-slide {
+    background-color: #fff3cd;
+    text-align: center;
+}
+
+.fifth-slide {
+    background-color: #e2e3e5;
+    text-align: center;
+}
+
+/* Styling for images */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Arrow icons */
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none; /* Remove default background */
+    color: #555;
+    font-size: 2rem;
+    width: 5%;
+    text-shadow: none;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.carousel-control.left:hover, 
+.carousel-control.right:hover {
+    opacity: 1;
+}
+
+/* Custom bullet indicators */
+.carousel-indicators li {
+    background-color: #aaa;
+    border: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #555;
+}
+
+/* Caption styling (optional, if captions are added) */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
